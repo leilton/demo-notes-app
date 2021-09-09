@@ -14,6 +14,9 @@ const config = {
       APP_CLIENT_ID: process.env.REACT_APP_USER_POOL_CLIENT_ID,
       IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID,
     },
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51JXWKiDvcLrPkVlHoTIGtmrVaHYiSKdq6N81x4iLT6PsYRZudHZC61sjSLkSTmddqsgNz6NJh2acbuSZZAFUBH5900PzwNLUPL",
+
   };
   
   export default config;
